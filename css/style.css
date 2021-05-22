@@ -22,3 +22,11 @@ footer {
 .header-img h1,  .header-img h2 {
     background: rgba(0, 0, 0, 0.3)
 }
+
+#preview a {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-100%);
+    background-color: rgba(0, 0, 0, 0.47);
+}
