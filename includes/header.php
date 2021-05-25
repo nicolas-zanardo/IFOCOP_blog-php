@@ -66,7 +66,7 @@
 
                     <?php if (isConnected()) : ?>
                         <li class="nav-item">
-                            <a class="nav-link <?php if ($title == "Profil") echo 'active'; ?>" href="<?php echo URL ?>profil.php">Profil</a>
+                            <a class="nav-link <?php if ($title == "Profil") echo 'active'; ?>" href="<?php echo URL ?>profil.php">Profil (<?php echo $_SESSION['user']['login'] ?>)</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo URL ?>connexion.php?action=logout"><i class="fas fa-power-off"></i></a>

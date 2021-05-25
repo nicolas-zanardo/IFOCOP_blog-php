@@ -1,6 +1,11 @@
+:root {
+    scroll-behavior: auto !important; /* smooth avec Bootsctap */
+}
+
 html {
     min-height: 100vh;
     position: relative;
+
 }
 
 main {
@@ -29,4 +34,24 @@ footer {
     left: 50%;
     transform: translateX(-100%);
     background-color: rgba(0, 0, 0, 0.47);
+}
+
+#preview {
+    cursor: pointer;
+}
+
+figure {
+    height: 500px !important;
+}
+
+figure a {
+    bottom: 15px;
+    right: 15px;
+}
+
+.illustration {
+    height: 33%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
 }
